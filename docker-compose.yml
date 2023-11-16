@@ -73,7 +73,7 @@ services:
         container_name: laravel_phpmyadmin
         image: phpmyadmin
         ports:
-          - 8087:80
+          - 8066:80
         environment:
           PMA_ARBITRARY: 1
           PMA_HOST: laravel_mysql
