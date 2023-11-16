@@ -70,6 +70,7 @@ services:
     # PHPmyadmin
     ####################################################################################################
     phpmyadmin:
+        container_name: laravel_phpmyadmin
         image: phpmyadmin
         ports:
           - 8087:80
@@ -84,7 +85,7 @@ services:
     ####################################################################################################
     # Mailpit
     ####################################################################################################
-    mail:
+    lara_mail:
         container_name: laravel_mailpit
         image: axllent/mailpit:latest
         ports:
